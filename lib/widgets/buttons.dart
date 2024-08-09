@@ -14,7 +14,6 @@ Widget elevatedButton(
         style: ElevatedButton.styleFrom(
             primary: color ?? Styles.primaryColor,
             elevation: 0,
-            //shadowColor: Colors.indigoAccent,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
             padding: const EdgeInsets.symmetric(vertical: 15),
