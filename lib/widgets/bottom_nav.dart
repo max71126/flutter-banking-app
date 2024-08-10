@@ -7,7 +7,7 @@ import 'package:flutter_banking_app/views/profile.dart';
 import 'package:flutter_banking_app/views/stats.dart';
 import 'package:flutter_banking_app/views/wallet.dart';
 
-/// This is the stateful widget that the main application instantiates.
+
 class BottomNav extends StatefulWidget {
   const BottomNav({Key? key}) : super(key: key);
 
@@ -15,7 +15,7 @@ class BottomNav extends StatefulWidget {
   State<BottomNav> createState() => _BottomNavState();
 }
 
-/// This is the private State class that goes with MyStatefulWidget.
+
 class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
