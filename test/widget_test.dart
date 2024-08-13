@@ -28,7 +28,3 @@ void main() {
     expect(find.text('1'), findsOneWidget);
   });
 }
-
-// Auto-generated comment for change 27
-
-// Auto-generated comment for change 26
