@@ -79,7 +79,3 @@ class _PeopleSliderState extends State<PeopleSlider> {
   }
 
 }
-
-// Auto-generated comment for change 26
-
-// Auto-generated comment for change 25
