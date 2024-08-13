@@ -268,6 +268,3 @@ class Wallet extends StatelessWidget {
   }
 }
 
-// Auto-generated comment for change 19
-
-// Auto-generated comment for change 18
