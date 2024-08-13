@@ -1,10 +1,10 @@
-// Place fonts/Iconly---Bold.ttf in your fonts/ directory and
-// add the following to your pubspec.yaml
-// flutter:
-//   fonts:
-//    - family: Iconly---Bold
-//      fonts:
-//       - asset: fonts/Iconly---Bold.ttf
+
+
+
+
+
+
+
 import 'package:flutter/widgets.dart';
 
 class IconlyBold {

@@ -38,7 +38,7 @@ class DefaultTextField extends StatelessWidget {
   final TextInputAction? textInputAction;
   final bool? enabled;
   String get _title => title;
-  //String? get _label => _label;
+  
   Widget? get _suffixIcon => suffixIcon;
   IconData? get _prefixIcon => prefixIcon;
 
@@ -75,4 +75,3 @@ class DefaultTextField extends StatelessWidget {
     );
   }
 }
-// Auto-generated comment for change 24
