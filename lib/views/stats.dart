@@ -252,7 +252,7 @@ class _StatsState extends State<Stats> {
         },
         getDrawingVerticalLine: (value) {
           return FlLine(
-            //color: Repository.selectedItemColor(context),
+            
             strokeWidth: 1,
           );
         },
@@ -337,8 +337,8 @@ class _StatsState extends State<Stats> {
             show: false,
           ),
           belowBarData: BarAreaData(
-            //applyCutOffY: true,
-            //cutOffY: 100,
+            
+            
             gradientFrom: const Offset(100, 10),
             gradientTo: const Offset(100, 100),
             show: true,
