@@ -113,7 +113,3 @@ class IconlyBold {
   static const IconData Wallet = IconData(0xe962, fontFamily: _fontFamily);
   static const IconData Work = IconData(0xe963, fontFamily: _fontFamily);
 }
-
-// Auto-generated comment for change 12
-
-// Auto-generated comment for change 11
