@@ -21,7 +21,7 @@ class _PeopleSliderState extends State<PeopleSlider> {
     final size = Layouts.getSize(context);
     controller.addListener(() {
       setState(() {
-        //currentPage = controller.page!.round();
+        
       });
     });
     return _body(size.height, theme);
@@ -47,7 +47,7 @@ class _PeopleSliderState extends State<PeopleSlider> {
               controller.animateTo(470,
                   duration: const Duration(milliseconds: 700),
                   curve: Curves.elasticOut);
-              //controller.animateToPage(index, duration: Duration(milliseconds: 700), curve: Curves.elasticOut);
+              
             },
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -78,31 +78,4 @@ class _PeopleSliderState extends State<PeopleSlider> {
     );
   }
 
-  /*_indicators(theme) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: List<Widget>.generate(userList.length, (int index) {
-          return InkWell(
-            onTap: () {
-              controller.animateToPage(index, duration: Duration(milliseconds: 700), curve: Curves.elasticOut);
-            },
-            child: AnimatedContainer(
-              duration: Duration(milliseconds: 200),
-              height: (index == currentPage) ? 60 : 40,
-              width: (index == currentPage) ? 50 : 40,
-              margin: EdgeInsets.symmetric(vertical: 10, horizontal: 4),
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                  color: (index == currentPage) ? Styles.yellowColor:Colors.grey
-              ),
-            ),
-          );
-        }),
-      ),
-    );
-  }*/
 }
-
-// Auto-generated comment for change 26
