@@ -27,7 +27,3 @@ class Assets {
   static const String memoji9 = 'assets/memoji/9.png';
 
 }
-
-// Auto-generated comment for change 3
-
-// Auto-generated comment for change 2
